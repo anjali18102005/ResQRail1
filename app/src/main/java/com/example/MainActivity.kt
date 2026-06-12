@@ -192,8 +192,8 @@ fun LoginScreen(viewModel: MainViewModel) {
                             }
                             Spacer(modifier = Modifier.width(12.dp))
                             Column {
-                                Text("Anjali Sharma", color = Color.Black, fontSize = 14.sp, fontWeight = FontWeight.Bold)
-                                Text("anjali18102005@gmail.com", color = Color.Gray, fontSize = 12.sp)
+                                Text("Guest", color = Color.Black, fontSize = 14.sp, fontWeight = FontWeight.Bold)
+                                Text("guest@gmail.com", color = Color.Gray, fontSize = 12.sp)
                             }
                         }
                         
