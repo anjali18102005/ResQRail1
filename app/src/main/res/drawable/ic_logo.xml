@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- 1. Circular Arrow Frame (Curving clockwise around the perimeter) -->
+    <!-- Outer thick blue track -->
+    <path
+        android:strokeColor="#0A4275"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 34,74 A 26,26 0 1,0 74,34 C 71,31 68,29 65,28" />
+
+    <!-- Primary Arrow head pointing up-right at the right side of the circle -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 76.5,31 L 81,37 L 72,39 Z" />
+
+    <!-- Inner cyan arrow swooping inside the circle to represent transit connectivity -->
+    <path
+        android:strokeColor="#00A3E0"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 45,64 A 18,18 0 0,1 68,48" />
+
+    <path
+        android:fillColor="#00A3E0"
+        android:pathData="M 68,48 L 62.5,51 L 67.5,44 Z" />
+
+    <!-- 2. Horizontal Railway Track merging into the circle on the left -->
+    <!-- Sleepers (Wood ties) -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 12,41 h 3 v 14 h -3 z M 19,41 h 3 v 14 h -3 z M 26,41 h 3 v 14 h -3 z" />
+
+    <!-- Parallel rails curving and pointing towards the center as an arrow -->
+    <path
+        android:strokeColor="#0A4275"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 8,44 H 28 C 34,44 38,48 40.5,53.5 L 43,59" />
+    <path
+        android:strokeColor="#0A4275"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 8,52 H 28 C 31,52 33,53.5 35,56" />
+
+    <!-- Railroad Arrow Head pointing down-right inside the circle -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 40,61 L 46.5,60.5 L 44,54 Z" />
+
+    <!-- 3. Train Icon (top-left, head-on view) -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 42,21 h 8 A 1.5,1.5 0 0,1 51.5,22.5 v 7.5 A 1.5,1.5 0 0,1 50,31.5 H 42 A 1.5,1.5 0 0,1 40.5,30 v -7.5 A 1.5,1.5 0 0,1 42,21 z" />
+    <!-- Glass block -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 42,22.5 h 8 v 3.5 h -8 z" />
+    <!-- Dual headlights -->
+    <path
+        android:fillColor="#00A3E0"
+        android:pathData="M 43,29.5 a 0.7,0.7 0 1,1 -1.4,0 a 0.7,0.7 0 1,1 1.4,0 Z M 49,29.5 a 0.7,0.7 0 1,1 -1.4,0 a 0.7,0.7 0 1,1 1.4,0 Z" />
+    <!-- Little railway wheel bracket -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 43,31.5 h 6 v 1.2 h -6 z" />
+
+    <!-- 4. Bus Icon (bottom-middle, head-on view) -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 52.5,57 h 8 A 1.5,1.5 0 0,1 62,58.5 v 7 A 1.5,1.5 0 0,1 60.5,67 H 52.5 A 1.5,1.5 0 0,1 51,65.5 v -7 A 1.5,1.5 0 0,1 52.5,57 z" />
+    <!-- Front windshield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 52.5,58.5 h 8 v 3 h -8 z" />
+    <!-- Dual lights -->
+    <path
+        android:fillColor="#00A3E0"
+        android:pathData="M 53.5,65 a 0.6,0.6 0 1,1 -1.2,0 a 0.6,0.6 0 1,1 1.2,0 Z M 59.5,65 a 0.6,0.6 0 1,1 -1.2,0 a 0.6,0.6 0 1,1 1.2,0 Z" />
+    <!-- Tires underneath -->
+    <path
+        android:fillColor="#0A4275"
+        android:pathData="M 53,67 h 1.8 v 1.5 h -1.8 z M 58.2,67 h 1.8 v 1.5 h -1.8 z" />
+
+    <!-- 5. Airplane Icon (top-right, taking off) -->
+    <!-- Sleek plane silhouette diagonally oriented (pointing Northeast at ~45 deg) -->
+    <path
+        android:fillColor="#00A3E0"
+        android:pathData="M 54.5,23.5 C 54,23.1 53.3,23.3 52.9,23.8 C 52.5,24.3 52.7,25 53.2,25.4 L 56.5,28 L 54.5,33.5 L 56.5,34.5 L 59,29.8 C 62,31.2 63.5,31.8 65,30 C 66.5,28.2 65.5,26.5 64,24 L 60,20.5 L 61,19.2 L 57.5,21.2 Z" />
+
+</vector>

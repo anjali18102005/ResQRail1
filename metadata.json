@@ -1,0 +1,6 @@
+{
+  "name": "ResQRail",
+  "description": "Intelligent alternative transit planning platform for railway passengers whose tickets are waitlisted.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
